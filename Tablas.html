@@ -1,0 +1,232 @@
+<DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF 8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <title>Tablas</title>
+ <h1>Tablas</h1>
+    <p> Esta página muestra como elaborar tablas en HTML</p><br>
+ </head>
+ <body>
+   <h3>Elaboración de una tabla simple</h3>
+      <p> Para la tabla simple usaremos el comando <b>< tr ></b>
+          y para nombrar cada elemento usaremos el comando <b>< td ></b> <b>< table style="width: 100%" ></b></p>
+    <table style="width: 100%">
+    <tr>
+       <td>Nombre del equipo</td>
+       <td> Puntos</td>
+       <td> Goles a favor</td>
+       <td> Goles en contra</td>
+    </tr>
+    <tr>
+       <td>América</td>
+       <td>36</td>
+       <td>18</td>
+       <td>16</td>
+    </tr>
+    <tr>
+       <td>Cruz azul</td>
+       <td>42</td>
+       <td>22</td>
+       <td>15</td>
+    </tr>
+    <tr>
+       <td>Monterrey</td>
+       <td>12</td>
+       <td>10</td>
+       <td>18</td>
+    </tr><br>
+ </table>    
+    <hr> 
+ 
+   <h3>Elaboración de una tablas con bordes</h3>
+      <p> Para la tabla con bordes usaremos el comando <b>< tr ></b>
+          y para nombrar cada elemento nuevamente usaremos el comando <b>< td ></b> <b>
+              < table style ="width: 100%" border ="" ></b></p>
+    <table style="width: 100%" border="">
+    <tr>
+       <td>Nombre(s)</td>
+       <td>Apellidos</td>
+       <td>Asistencias</td>
+    </tr>
+     
+    <tr>
+       <td>Ricardo</td>
+       <td>González</td>
+       <td>10</td>
+    </tr>
+    <tr>
+       <td>Christian</td>
+       <td>Cordoba</td>
+       <td>9</td>
+    </tr>
+     
+    <tr>
+       <td>Victor Manuel</td>
+       <td>Leos</td>
+       <td>8 </td>
+    </tr>
+   </table>
+      <br><hr>
+   
+   <h3>T&iacutetulos de tabla</h3>
+   <p> Para centrar y distinguir los t&iacutetulos en la tabla usaremos los comandos <b>< thead ></b>
+       en el encabezado de la tabla, y cada elemento entre <b>< th ></b>
+       centrando cada elemento del encabezado,
+       mientras que <b>"border= X"</b> nos va a dar el ancho del borde.</p>
+    <table style="width: 100%" border="1">
+      <thead>
+        <tr>
+         <th>Nombre(s)</th>
+         <th>Apellidos</th>
+         <th>Asistencias</th>
+        </tr>
+      </thead>
+      <thbody>  
+       <tr>
+          <td>Ricardo</td>
+          <td>González</td>
+          <td>10</td>
+       </tr>
+       <tr>
+          <td>Christian</td>
+          <td>Cordoba</td>
+          <td>9</td>
+       </tr>
+     
+       <tr>
+         <td>Victor Manuel</td>
+         <td>Leos</td>
+         <td>8 </td>
+       </tr>
+      </thbody>
+    </table><br>
+    <hr><br>
+    
+    <h3>Combinar columnas en la tabla</h3>
+    <p> Para combinar dos o más columnas bajo un encabezado, usaremos el comando <b>< th colspan="X" ></b>
+        en donde <b>X</b> es el n&uacutemero de columnas a unir</p>
+    <table style="width: 100%" border="1">
+      <thead>
+        <tr>
+         <th>Nombre(s)</th>
+         <th>Apellidos</th>
+         <th>Asistencias</th>
+         <th colspan="2">Tel&eacutefonos </th>
+        </tr>
+      </thead>
+      <tbody>  
+       <tr>
+          <td>Ricardo</td>
+          <td>González</td>
+          <td>10</td>
+          <td>Tel&eacutefono 1</td>
+          <td>Tel&eacutefono 2</td>
+       </tr>
+       <tr>
+          <td>Christian</td>
+          <td>Cordoba</td>
+          <td>9</td>
+          <td>Tel&eacutefono 1</td>
+          <td>Tel&eacutefono 2</td>
+       </tr>
+     
+       <tr>
+         <td>Victor Manuel</td>
+         <td>Leos</td>
+         <td>8 </td>
+         <td>Tel&eacutefono 1</td>
+         <td>Tel&eacutefono 2</td>
+       </tr>
+      </tbody>
+    </table><br>
+    <hr><br>
+    
+    <h3>Combinar filas en la tabla</h3>
+    <p> Para combinar dos o más filas bajo un mismo encabezado, usaremos el comando <b>< th rowspan="X" colspan="X" ></b>
+        en donde <b>X</b> es el n&uacutemero de columnas y filas a unir</p>
+    <table style="width: 100%" border="1">
+      <thead>
+        <tr>
+         <th colspan="2">Nombre completo</th>
+         <th rowspan="2">Asistencia</th>
+         <th rowspan="2" colspan="2">Tel&eacutefonos </th>
+        </tr>
+        <tr>
+         <th>Nombre(s)</th>
+         <th>Apellidos</th>
+        </tr>
+      </thead>
+      <tbody>  
+       <tr>
+          <td>Ricardo</td>
+          <td>González</td>
+          <td>10</td>
+          <td>Tel&eacutefono 1</td>
+          <td>Tel&eacutefono 2</td>
+       </tr>
+       <tr>
+          <td>Christian</td>
+          <td>Cordoba</td>
+          <td>9</td>
+          <td>Tel&eacutefono 1</td>
+          <td>Tel&eacutefono 2</td>
+       </tr>
+     
+       <tr>
+         <td>Victor Manuel</td>
+         <td>Leos</td>
+         <td>8 </td>
+         <td>Tel&eacutefono 1</td>
+         <td>Tel&eacutefono 2</td>
+       </tr>
+      </tbody>
+    </table><br>
+    <hr><br>
+    
+    <h3>Subt&iacutetulo de tabla</h3>
+    <p> Para poner un subt&iacutetulo a la tabla a&ntildeadiremos el comando <b>< caption></b>
+        despu&eacutes del estilo de tabla.</p>
+    <table style="width: 100%" border="1">
+        <caption><b><h4>Tabla de asistencia de alumnos</h4></b></caption>  
+      <thead>
+        <tr>
+         <th colspan="2">Nombre completo</th>
+         <th rowspan="2">Asistencia</th>
+         <th rowspan="2" colspan="2">Tel&eacutefonos </th>
+        </tr>
+        <tr>
+         <th>Nombre(s)</th>
+         <th>Apellidos</th>
+        </tr>
+      </thead>
+      <tbody>  
+       <tr>
+          <td>Ricardo</td>
+          <td>González</td>
+          <td>10</td>
+          <td>Tel&eacutefono 1</td>
+          <td>Tel&eacutefono 2</td>
+       </tr>
+       <tr>
+          <td>Christian</td>
+          <td>Cordoba</td>
+          <td>9</td>
+          <td>Tel&eacutefono 1</td>
+          <td>Tel&eacutefono 2</td>
+       </tr>
+     
+       <tr>
+         <td>Victor Manuel</td>
+         <td>Leos</td>
+         <td>8 </td>
+         <td>Tel&eacutefono 1</td>
+         <td>Tel&eacutefono 2</td>
+       </tr>
+      </tbody>
+    </table><br>
+    <hr><br>
+ <a href="Index.html"> Regresar a la página principal</a>
+ </body>
+ </html>
