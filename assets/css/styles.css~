@@ -1,4 +1,4 @@
-.header
+
 h1 {
             color: #B8860B;
             text-align: center;
@@ -6,4 +6,8 @@ h1 {
         }       
 body{
 background: #F8F6E5;
+
+}
+body{
+background-image:url(assets/img/Prueba página web.png);
 }
