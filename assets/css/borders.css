@@ -7,9 +7,9 @@
 }
 
 .ul {
-    background-color: rgba(255, 166, 0, 0.747);
-    border: 15px solid #087debf3;
-    border-radius: 0% 15% 0% 15%;
+    background-color: #fa6915;
+    border: 25px groove #c24725;
+    border-radius: 15% 0% 15% 0%;
     border-width: 20px;
     color: #0973D2 font-family: Arial, Helvetica, sans-serif;
     margin: 1;
@@ -19,11 +19,15 @@
 .div2 {
     background-color: #8BC8FE;
     border: 10px groove #053F73;
+    height: 200px;
+    width: 400px
 }
 
 .div3 {
     background-color: #0973D2;
     border: 10px double #053F73;
+    height: 200px;
+    width: 400px
 }
 
 .ej1 {
@@ -42,4 +46,36 @@
     background-color: #000;
     border: white 12px groove;
     color: #fff
+}
+
+.bord1 {
+    background-color: rgb(8, 137, 212);
+    border: rgb(7, 59, 201) 12px groove;
+    color: #fff;
+    height: 150px;
+    width: 300px;
+}
+
+.bord2 {
+    background-color: rgb(233, 143, 24);
+    border: rgb(250, 107, 12) 12px groove;
+    color: #fff;
+    height: 150px;
+    width: 300px;
+}
+
+.bord3 {
+    background-color: rgb(8, 137, 212);
+    border: rgb(7, 59, 201) 12px groove;
+    color: #fff;
+    height: 300px;
+    width: 1200px;
+}
+
+.bord4 {
+    background-color: rgb(233, 143, 24);
+    border: rgb(250, 107, 12) 12px groove;
+    color: #fff;
+    height: 300px;
+    width: 1200px;
 }

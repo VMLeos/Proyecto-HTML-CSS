@@ -1,36 +1,133 @@
-                .hdr {
-                background-color: #2287e6;
-            }
-            
-            h1 {
-                background-color: #2287e6;
-                color: #ffffff;
-                font-family: sans-serif;
-                font-size: 50px;
-                text-align: center;
-            }
-            
-            .phead {
-                color: #ffffff;
-                font-size: 26px;
-                text-align: center;
-            }
-            
-            body {
-                background: #e6e8e9;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            
-            .null {
-                background-color: #ffffff;
-                color: #000;
-                font-size: default;
-                text-align: left;
-            }
-            
-            .img {
-                background-image: url("http://www.augermiquel.com/wp-content/uploads/2019/10/html-css.png");
-                background-repeat: no-repeat;
-                background-position-y: bottom;
-                background-position-x: right;
-                )
+.hdr {
+    background-color: #2287e6;
+}
+
+h1 {
+    background-color: #2287e6;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.phead {
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+}
+
+.body {
+    background: #e6e8e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.null {
+    background-color: rgb(8, 137, 212);
+    color: #fff;
+    font-size: default;
+    text-align: left;
+}
+
+.img {
+    background-image: url("http://www.augermiquel.com/wp-content/uploads/2019/10/html-css.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.link {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.button1 {
+    background-color: rgb(31, 31, 241);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.button2 {
+    background-color: rgb(35, 155, 235);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.button3 {
+    background-color: rgb(98, 186, 236);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.button4 {
+    background-color: rgb(78, 207, 240);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.button1a {
+    background-color: rgb(243, 116, 12);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.button2a {
+    background-color: rgb(248, 163, 66);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.button3a {
+    background-color: rgb(241, 181, 50);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.button4a {
+    background-color: rgb(240, 197, 78);
+    border-radius: 12px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+}
+
+.menu {
+    float: left;
+    width: 150px;
+}
+
+.contenido {
+    position: relative;
+    top: 300px;
+    left: 300px;
+    right: 100px;
+    width: 85%;
+}
+
+.intro {
+    color: rgb(20, 89, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: justify;
+}
+
+.links {
+    background-color: #FF5733;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+}
