@@ -1,0 +1,11 @@
+/*Etiquetas en bordes*/
+
+div {
+            widht: 80px;
+            height: 80px;
+            background-color: orange;
+        }       
+ul {
+            background-color: blue;
+            border: dotted;
+}
